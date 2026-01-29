@@ -1,9 +1,8 @@
-# LinkedIn Post Generator (LangChain + Groq)
+## LinkedIn Post Generator (LangChain + Groq)
 
 This project is a **LinkedIn Post Generator** built using **LangChain** and **Groq LLM**.  
-It takes a topic and user preferences and generates a polished LinkedIn post step-by-step.
+It takes a topic and user preferences and generates a polished LinkedIn post .
 
-The system remembers past posts and uses them as context for better future generations.
 
 ---
 
@@ -104,4 +103,54 @@ This helps maintain context across multiple runs.
 ---
 
 ## Project Structure
+```bash
+LinkedIn_Post_Generation/
+│
+├── main.py
+├── memory.json
+└── README.md
+```
+---
 
+---
+
+## Memory File (`memory.json`)
+
+The memory file stores past sessions like this:
+
+```json
+{
+  "sessions": [
+    {
+      "topic": "AI in Finance",
+      "audience": "Students",
+      "tone": "Professional"
+    }
+  ]
+}
+```
+---
+## Environment Setup
+1. Install Dependencies
+```bash
+pip install langchain langchain-groq python-dotenv
+```
+2.Create .env File
+```bash
+GROQ_API_KEY=your_api_key_here
+```
+3. Run the Program
+```bash
+python main.py
+```
+---
+## Future Improvements
+   - Add UI using Streamlit
+   - Allow editing before final output
+   - Add post tone validation
+   - Generate multiple post variations
+   - Retrieve high-quality LinkedIn examples using a vector database for better context and consistency
+   - Use a state-based workflow with conditional steps and retry logic
+   - Track and compare prompt changes over time
+   - Expose the system via a FastAPI service
+---
