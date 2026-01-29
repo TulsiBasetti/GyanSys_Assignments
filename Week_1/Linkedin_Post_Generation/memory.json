@@ -1,0 +1,44 @@
+{
+  "sessions": [
+    {
+      "topic": "1st day at Gyansys",
+      "audience": "professional",
+      "tone": "grateful"
+    },
+    {
+      "topic": "learned about langchain today",
+      "audience": "professionals",
+      "tone": "educational"
+    },
+    {
+      "topic": "genai",
+      "audience": "General LinkedIn Network",
+      "tone": "Educational"
+    },
+    {
+      "topic": "RAG",
+      "audience": "General LinkedIn Network",
+      "tone": "educational"
+    },
+    {
+      "topic": "GenAi learning",
+      "audience": "professional",
+      "tone": "professional"
+    },
+    {
+      "topic": "Hiring for python developer",
+      "audience": "all the open to work professionals",
+      "tone": "professional"
+    },
+    {
+      "topic": "open to work as a Software developer",
+      "audience": "HR Professionals",
+      "tone": "professional"
+    },
+    {
+      "topic": "llm",
+      "audience": "linkedin network",
+      "tone": "educational"
+    }
+  ]
+}

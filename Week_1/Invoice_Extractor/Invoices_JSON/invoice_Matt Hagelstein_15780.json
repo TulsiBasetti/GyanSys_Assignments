@@ -1,0 +1,22 @@
+{
+  "invoice_number": "15780",
+  "invoice_date": "May 31 2012",
+  "vendor_name": "SuperStore",
+  "customer_name": "Matt Hagelstein",
+  "currency": "$",
+  "line_items": [
+    {
+      "product_name": "Ikea Classic Bookcase, Traditional",
+      "sub-category": "Bookcases",
+      "category": "Furniture",
+      "product_id": "FUR-BO-4851",
+      "quantity_or_duration": "5",
+      "rate": 1029.38,
+      "amount": 5146.88
+    }
+  ],
+  "subtotal": 5146.88,
+  "discount": 2573.44,
+  "shipping": 141.5,
+  "total": 2714.94
+}
