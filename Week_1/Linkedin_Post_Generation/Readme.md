@@ -28,6 +28,14 @@ It takes a topic and user preferences and generates a polished LinkedIn post .
 
 ---
 
+## Architecture Diagram
+
+
+<img width="570" height="739" alt="image" src="https://github.com/user-attachments/assets/2bc363ee-de33-4fc8-a83d-a94fe4e6f4c9" />
+
+
+---
+
 ## How the System Works (Step by Step)
 
 ### 1. User Input
@@ -154,3 +162,4 @@ python main.py
    - Track and compare prompt changes over time
    - Expose the system via a FastAPI service
 ---
+
