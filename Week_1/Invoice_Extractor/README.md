@@ -65,6 +65,8 @@ The model extracts data in the following JSON format:
 ---
 ## Architecture Diagram 
 
+<img width="299" height="685" alt="image" src="https://github.com/user-attachments/assets/5ac58dff-83e0-40af-93e7-c4920ec59a9d" />
+
 ---
 ## How to Run
 ```
