@@ -36,8 +36,8 @@ All interactions are saved to sql_queries.json:
   "mode": "explain_sql",
   "user_input": "SELECT * FROM users;",
   "output": "1. Query Intent: ..."
-}
-```
+  }
+  ```
 - For SQL Generation:
 ```json
   {
@@ -46,7 +46,6 @@ All interactions are saved to sql_queries.json:
   "assumptions": "1. There's a table named 'products'...",
   "sql_query": "SELECT id, name FROM products WHERE quantity = 0;"
 }
-
 ```
 ---
 ## Limitations & Notes
