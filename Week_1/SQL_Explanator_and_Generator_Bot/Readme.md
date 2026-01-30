@@ -1,8 +1,6 @@
-## SQL  Explanator and Generator Bot ##
----
-## Overview
+## SQL  Explanator and Generator Bot 
 A dual-mode SQL tool that helps you understand and generate SQL queries using AI. This application allows you to either explain existing SQL queries or generate SQL queries from natural language descriptions.
----
+
 ## Features
  ## Mode 1: SQL Query Explainer
 - Upload any SQL query for detailed, educational explanations
