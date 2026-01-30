@@ -21,6 +21,7 @@ A dual-mode SQL tool that helps you understand and generate SQL queries using AI
 ## Architecture
 <img width="376" height="474" alt="image" src="https://github.com/user-attachments/assets/d5ce7c23-90a4-4abf-9a83-37c9d97fe846" />
 ---
+
 ## File Structure
 - main.py          # Main application file
 - sql_queries.json # JSON file storing history (auto-generated)
