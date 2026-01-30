@@ -46,17 +46,24 @@ All interactions are saved to sql_queries.json:
   "assumptions": "1. There's a table named 'products'...",
   "sql_query": "SELECT id, name FROM products WHERE quantity = 0;"
 }
+
 ```
 ---
 ## Limitations & Notes
 - Assumption-based Generation: The SQL generator makes educated guesses about table/column names. You may need to adjust the generated   SQL to match your actual database schema.
 - Groq API Key is used.
 - No Database Connection: This tool doesn't connect to actual databases. It only explains and generates SQL syntax.
+- 
+---
 
 ## Quick Test Queries
 - For Mode 1 (Explain SQL):
+  ```bash
   SELECT * FROM employees WHERE salary > 50000 ORDER BY hire_date DESC;
+  ```
   
 - For Mode 2 (Generate SQL):
+  ```bash
    - "Find customers who haven't ordered in the last 30 days"
    - "Show top 10 products by sales"
+  ```
